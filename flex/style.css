@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: goldenrod
+}
+.container {
+    display: -webkit-flex;
+    display: flex;
+    background-attachment: fixed;
+    background: coral;
+    
+    flex-basis: content;
+    flex-direction: row-reverse;
+}
+h2 {
+    font: 100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    -moz-text-decoration-style: wavy;
+    text-decoration-style: solid;
+    -webkit-text-fill-color: aliceblue;
+}
+img {
+    border-radius: 32px;
+    flex: 3;
+}
+.img1{
+    align-self: flex-end;
+}
+.img2 {
+    align-self: flex-start;
+}
+.img3 {
+    align-self: baseline;
+}
+.img4 {
+    align-self: auto;
+}
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+    height: 880px;
+    width: 500px;
+    border-radius: 50px;
+    align-items: flex-start
+}
+section>* {
+    border: 1px solid black;
+    margin: 0;
+}
